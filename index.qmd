@@ -1,5 +1,6 @@
 ---
 title: "**School desegregation policies in the city of Barcelona**"
+title-block-banner: false
 toc: false
 about:
   template: jolla
