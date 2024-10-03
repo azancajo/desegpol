@@ -4,7 +4,7 @@ format: html
 toc: false
 ---
 
-:::::::::: grid-container
+::::::::::::: grid-container
 ::: team-member
 <img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
 
@@ -61,7 +61,6 @@ toc: false
 <p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
-
 ::: team-member
 <img src="team_photos/MP.jpg" alt="Marcel Pagès" width="150" height="150"/>
 
@@ -85,7 +84,6 @@ toc: false
 
 <p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
-
 
 <style>
 .grid-container {
@@ -128,4 +126,4 @@ p a {
     text-align: center;
 }
 </style>
-::::::::::
+:::::::::::::

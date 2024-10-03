@@ -8,8 +8,10 @@ about:
 
 ![](images/Desegpol_logo_transparent%202.png){fig-align="center"}
 
-::: {style="display: flex; align-items: left;"}
-<img src="images/geps-logo.png" style="margin-right: 10px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" width="400" height="163"/>
+::: {style="display: flex; justify-content: center; align-items: flex-start;"}
+<img src="images/geps-logo.png" style="margin-right: 10px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" width="400" height="163" style="margin-right: 10px;"/>
 :::
 
-![](images/Llimes-signes.png){fig-align="right"}
+**Funded by:**
+
+![](images/Llimes-signes.png)
