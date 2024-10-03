@@ -1,0 +1,105 @@
+---
+title: "Team"
+format: html
+toc: false
+---
+
+:::::::::: grid-container
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
+
+<h4>**Adrián Zancajo**</h4>
+
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; /* Adjust gap for spacing between items */
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.team-member img {
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px 0; /* Adds some space between the image and name */
+    text-align: center;
+}
+
+.team-member p {
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p a {
+    margin: 0 5px; /* Adds space between icons */
+    text-align: center;
+}
+</style>
+::::::::::

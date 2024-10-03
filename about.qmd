@@ -1,9 +1,41 @@
 ---
-title: "About"
+title: "About the project"
 ---
 
-About this site
+# Project summary
 
-```{r}
-1 + 1
-```
+School segregation is currently one of the greatest educational and social challenges facing European countries and cities. The fight against school segregation has direct implications for the right to education, children's well-being, the quality of public services, and social cohesion. The city of Barcelona ranks among the Catalan cities with the highest levels of school segregation, despite also being a pioneer in developing local policies to mitigate this issue. In this context, and with the goal of addressing this challenge, the Barcelona Education Consortium launched the *"Shock Plan Against School Segregation"* in 2018, a groundbreaking and innovative initiative at the European level aimed at significantly reducing school segregation in the city through a wide range of measures. More recently, the approval of the new *Admissions Decree* by the Generalitat of Catalonia in 2021 has helped to strengthen this policy, establishing a regulatory framework that consolidates many of the measures outlined in the Shock Plan, while also introducing new instruments to improve the distribution of socially vulnerable students.
+
+The main objective of this project is to determine the impact of the *Shock Plan* and the *Admissions Decree* on the distribution of socially vulnerable students across educational centers in the city of Barcelona, as well as to analyze the functioning of the various instruments introduced by these policies. The project aims to capture not only the effect of the education policy on school segregation but also how these policies are interpreted and influence the behavior of educational centers and families, and how their impact varies depending on the social, geographic, and educational context.With this objective, and by combining two complementary methodological approaches (impact evaluation and realist evaluation), the project aims to provide evidence for political decision-making and the fight against school segregation from a local perspective.
+
+# Objetives and research questions
+
+Most of the policy experiences explicitly oriented at tackling school segregation at a system level are relatively recent – and therefore, research in this area is very much in its infancy and remains inconclusive. Hence, there is limited research on the policy designs and the circumstances effectively conducive to the success of desegregation policies. This is problematic because the impact of school desegregation policies ultimately depends on their capacity to effectively alter the behaviors of different stakeholders. The innovative character of the Pla de Xoc (PX), in an auspicious regulatory environment advanced by the Decret d’Admissions (DA), offers a unique opportunity to gain insight into the challenges and opportunities posed by school desegregation policies.
+
+In this context, the main objective of the project is to analyze the impact of the PX and DA on the distribution of socially disadvantaged students among schools in the city of Barcelona and examine how these policies work. This objective can be broken down into the following specific objectives:
+
+**1.** Analyze how the distribution among schools of different groups of socially disadvantaged and minority students has evolved in the past years.
+
+**2.** Estimate to what extent the improvement or decline in the balanced distribution of vulnerable students among schools can be attributed to the implementation of the PX and DA.
+
+**3.** Explore how the different policy instruments included in the PX and DA affect their outcomes in terms of school segregation.
+
+**4.** Examine how the outcomes of these policies are influenced by the characteristics of the actors involved and the geographical, social, and educational contexts in which they operate.
+
+**5.** Identify potential context-sensitive policy design changes to improve the effectiveness of the policies against school segregation.
+
+The project’s objectives will contribute to answering the following research questions:
+
+**RQ1**: What has been the impact of the PX and DA on the distribution of vulnerable students among schools?
+
+**RQ2**: How do the schools' and families' social and educational characteristics affect how they interpret and respond to the PX and DA?
+
+**RQ3**: How do the geographical, social, and educational contexts influence the impact of PX and DA?
+
+**RQ4**: What is the role of the different instruments included in the PX and DA in promoting a more balanced distribution of socially disadvantaged students among schools?
+
+# Research strands and methodology
+
+## Strand 1. Impact on school segregation and social stratification: a quasi-experimental design
+
+## Strand 2. Context-Mechanisms-Outcomes (CMOs): realist analysis of desegregation policies

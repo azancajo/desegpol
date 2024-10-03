@@ -1,11 +1,14 @@
 ---
-title: "desegpol"
+title: "**School desegregation policies in the city of Barcelona**"
+toc: false
+about:
+  template: jolla
 ---
 
-This is a Quarto website.
+![](images/Desegpol_logo_transparent%202.png){fig-align="center"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {style="display: flex; align-items: left;"}
+<img src="images/geps-logo.png" style="margin-right: 10px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" width="400" height="163"/>
+:::
 
-```{r}
-1 + 1
-```
+![](images/Llimes-signes.png){fig-align="right"}

@@ -4,13 +4,24 @@ project:
 website:
   title: "desegpol"
   navbar:
+    title: false
+    logo: images/Desegpol_logo_transparent.png
+    logo-alt: "Desegpol"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - team.qmd
+      - Outputs.qmd
+      
+# Link the custom CSS file here
+    stylesheets: 
+      - css/styles.css
 
 format:
   html:
+    include-in-header: |
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.8.6/css/academicons.min.css">
     theme: cosmo
     css: styles.css
     toc: true

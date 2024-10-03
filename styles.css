@@ -1,1 +1,11 @@
 /* css styles */
+
+
+.navbar {
+    height: 100px;  /* Adjust this value to your desired navbar height */
+}
+
+.navbar-brand img {
+    max-height: 100%;  /* Ensure the logo fits within the new navbar height */
+    height: auto;
+}
