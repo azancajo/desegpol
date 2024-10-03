@@ -29,3 +29,16 @@
 h1.title {
   display: none;
 }
+
+/* Center navbar items */
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: Ensure the logo is positioned properly */
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+}
