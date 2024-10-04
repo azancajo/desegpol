@@ -155,3 +155,12 @@ body {
   margin-top: 70px; /* Add margin equivalent to the navbar height */
   padding-top: 0; /* No extra padding needed */
 }
+
+@media (max-width: 768px) {
+  .large-element {
+    display: none; /* Hide large elements on mobile */
+  }
+  .text-content {
+    font-size: 14px; /* Adjust font sizes for mobile */
+  }
+}
