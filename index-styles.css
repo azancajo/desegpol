@@ -109,3 +109,7 @@ a {
 .navbar-nav .nav-link {
   color: #419E9C; /* Default color for navbar links */
 }
+
+.navbar-nav .nav-link.active {
+  color: #419E9C; /* Replace this hex code with your desired color */
+}
