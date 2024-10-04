@@ -4,6 +4,10 @@ title-block-banner: false
 toc: false
 about:
   template: jolla
+body-attrs: "class=index-page" # Adds a class called "index-page" to the body
+format:
+  html:
+    css: index-styles.css
 ---
 
 ![](images/Desegpol_logo_transparent%202.png){fig-align="center"}

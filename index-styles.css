@@ -76,49 +76,27 @@ img.fade-in {
   }
 }
 
-/* Apply the animation to all images only in the index page */
-.index-page img {
+/* Keyframes for the slide-in-from-bottom animation */
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%); /* Start from below */
+    opacity: 0; /* Hidden */
+  }
+  to {
+    transform: translateY(0); /* End at the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Apply the animation to all images EXCEPT images inside the navbar */
+body img:not(.navbar-brand img) {
   animation: slideInFromBottom 2s ease-out;
   opacity: 1; /* Ensures images don't remain invisible */
 }
 
-/* Apply the navbar margin increase only on the index page */
-.index-page .navbar-nav .nav-link {
-  margin-right: 20px;
-}
 /* Target the navbar links */
 .navbar-nav .nav-link {
   margin-right: 40px; /* Adjust this value to increase or decrease the spacing */
-}
-
-/* Change link color on hover */
-a:hover {
-  color: #e33e58; /* Change to your desired color when hovering */
-}
-
-/* Change link color when clicked (active state) */
-a:active {
-  color: #ff0000; /* Change to your desired color when clicking */
-}
-
-/* Change link color after it has been clicked (visited state) */
-a:visited {
-  color: #660099; /* Change to your desired color after visiting the link */
-}
-
-/* Change navbar link color on hover */
-.navbar-nav .nav-link:hover {
-  color: #e33e58; /* Change this to the hover color you want */
-}
-
-/* Change navbar link color when clicked (active state) */
-.navbar-nav .nav-link:active {
-  color: #ff0000; /* Change this to the active color you want */
-}
-
-/* Change navbar link color after it has been clicked (visited state) */
-.navbar-nav .nav-link:visited {
-  color: #e33e58; /* Change this to the visited color you want */
 }
 
 /* Regular links (default) */
@@ -130,10 +108,4 @@ a {
 /* Navbar links (default) */
 .navbar-nav .nav-link {
   color: #419E9C; /* Default color for navbar links */
-}
-
-/* Highlight navbar links when hovered or focused */
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
-  color:  #419E9C; /* Change color for navbar links when hovered or focused */
-  background-color: #C4E6E6; /* Optional: background color to highlight */
 }
