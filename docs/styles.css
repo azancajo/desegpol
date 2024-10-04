@@ -101,10 +101,6 @@ a:active {
   color: #ff0000; /* Change to your desired color when clicking */
 }
 
-/* Change link color after it has been clicked (visited state) */
-a:visited {
-  color: #660099; /* Change to your desired color after visiting the link */
-}
 
 /* Change navbar link color on hover */
 .navbar-nav .nav-link:hover {
@@ -132,8 +128,30 @@ a {
   color: #419E9C; /* Default color for navbar links */
 }
 
-/* Highlight navbar links when hovered or focused */
+/* Highlight navbar links with a line below when hovered or focused */
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
   color:  #419E9C; /* Change color for navbar links when hovered or focused */
-  background-color: #C4E6E6; /* Optional: background color to highlight */
+  border-bottom: 2px solid #419E9C; /* Add a line below the link */
+  background-color: transparent; /* Ensure no background color is applied */
+}
+
+/* Capitalize text in the navbar */
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+
+/* Make the navbar fixed at the top of the page */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Ensure the navbar spans the full width of the page */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+  background-color: #fff; /* Optional: Add a background color to ensure visibility */
+  height: 70px; /* Set the height of the navbar */
+}
+
+/* Add margin and padding to ensure content starts below the navbar */
+body {
+  margin-top: 70px; /* Add margin equivalent to the navbar height */
+  padding-top: 0; /* No extra padding needed */
 }

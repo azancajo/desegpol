@@ -76,22 +76,22 @@ img.fade-in {
   }
 }
 
-/* Keyframes for the slide-in-from-bottom animation */
-@keyframes slideInFromBottom {
-  from {
-    transform: translateY(100%); /* Start from below */
-    opacity: 0; /* Hidden */
-  }
-  to {
-    transform: translateY(0); /* End at the original position */
-    opacity: 1; /* Fully visible */
-  }
-}
-
 /* Apply the animation to all images EXCEPT images inside the navbar */
 body img:not(.navbar-brand img) {
   animation: slideInFromBottom 2s ease-out;
   opacity: 1; /* Ensures images don't remain invisible */
+}
+
+/* Apply the animation to all text elements EXCEPT navbar links */
+body h1, body h2, body h3, body h4, body p, body span, body div {
+  animation: slideInFromBottom 2s ease-out;
+  opacity: 1; /* Ensures text doesn't remain invisible */
+}
+
+/* Prevent the animation from affecting text inside the navbar */
+.navbar-nav .nav-link {
+  animation: none;
+  opacity: 1; /* Ensures navbar links are visible */
 }
 
 /* Target the navbar links */
