@@ -4,87 +4,88 @@ format: html
 toc: false
 ---
 
-# Research team
+<h1 style="color: #419E9C;">Research team</h1>
 
 ::::::::::::: grid-container
 ::: team-member
 <img src="team_photos/AZ.jpeg" alt="Adrián Zancajo" width="150" height="150"/>
 
-<h4>**Adrián Zancajo (PI)**</h4>
+<span style="font-size: 22px;">**Adrián Zancajo (PI)**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.nl/citations?hl=en&user=mJmENSwAAAAJ" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/SG.jpeg" alt="Sheila González" width="150" height="150"/>
 
-<h4>**Sheila González**</h4>
+<span style="font-size: 22px;">**Sheila González**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p><a href="https://independent.academia.edu/SheilaGonz%C3%A1lez5" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Sheila-Gonzalez-Motos" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com/citations?user=RCn34NAAAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/AJ.webp" alt="Andrea Jover" width="150" height="150"/>
 
-<h4>**Andrea Jover**</h4>
+<span style="font-size: 22px;">**Andrea Jover**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+ <span style="color: #FFFFFF;">white text</span>
 :::
 
 ::: team-member
 <img src="team_photos/AL.jpg" alt="Antonia Levantino" width="150" height="150"/>
 
-<h4>**Antonina Levantino**</h4>
+<span style="font-size: 22px;">**Antonina Levantino**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://ub.academia.edu/AntoninaLevatino" target="_blank" style="text-decoration: none;">{{< iconify simple-icons academia size=lg >}} 
+  </a> <a href="https://www.researchgate.net/profile/Antonina-Levatino" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.it/citations?user=1PzDB04AAAAJ&hl=it" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/BLL.jpg" alt="Berta Llos" width="150" height="150"/>
 
-<h4>**Berta Llos**</h4>
+<span style="font-size: 22px;">**Berta Llos**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://independent.academia.edu/blloscasadell%C3%A0" target="_blank" style="text-decoration: none;">  {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Berta-Llos-Casadella" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com/citations?user=eJjsXaAAAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/MM.webp" alt="Martí Manzano" width="150" height="150"/>
 
-<h4>**Martí Manzano**</h4>
+<span style="font-size: 22px;">**Martí Manzano**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://www.researchgate.net/profile/Marti-Manzano" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a> <a href="https://scholar.google.com.my/citations?user=jDBdZS0AAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a> </p>
 :::
 
 ::: team-member
 <img src="team_photos/LLP.webp" alt="Lluís Pacerisa" width="150" height="150"/>
 
-<h4>**Lluís Pacerisa**</h4>
+<span style="font-size: 22px;">**Lluís Pacerisa**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://ub.academia.edu/Llu%C3%ADsParcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Lluis-Parcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com/citations?user=TfZVZVwAAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/MP.jpg" alt="Marcel Pagès" width="150" height="150"/>
 
-<h4>**Marcel Pagès**</h4>
+<span style="font-size: 22px;">**Marcel Pagès**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://independent.academia.edu/MarcelPag%C3%A8s" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Marcel-Pages" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com" target="_blank" style="text-decoration: none;">{{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/EQ.webp" alt="Edgar Quilabert" width="150" height="150"/>
 
-<h4>**Edgar Quilabert**</h4>
+<span style="font-size: 22px;">**Edgar Quilabert**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://uab.academia.edu/EQuilabert" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Edgar-Quilabert" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.es" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
 <img src="team_photos/AT.webp" alt="Andreu Termes" width="150" height="150"/>
 
-<h4>**Andreu Termes**</h4>
+<span style="font-size: 22px;">**Andreu Termes**</span>
 
-<p><a href="https://uab.academia.edu/AdrianZancajo" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://www.researchgate.net/profile/AdrianZancajo" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
+<p> <a href="https://uab.academia.edu/AndreuTermes" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 <style>

@@ -169,21 +169,19 @@ body {
   color: #419E9C; /* Replace this hex code with your desired color */
 }
 
-/* Hide anchor link symbol for h4 headers */
-h4 .header-anchor::before,
-h4 .header-anchor::after,
-h4 a.anchor {
-    display: none !important; /* Completely hides any symbol associated with h4 */
+h1 {
+  color: #419E9C;
 }
 
-/* Ensure h4 links are not clickable */
-h4 a {
-    pointer-events: none;
-    text-decoration: none;
-    color: inherit;
+h2 {
+  color: #419E9C;
 }
 
-/* Prevent any hover effects for h4 headers */
-h4:hover a {
-    text-decoration: none;
+.page-footer {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100px; /* Adjust the height as needed */
+  background-color: #123456; /* Use your desired background color */
+  color: white; /* Optional: Set the text color */
 }

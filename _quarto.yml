@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Desegpol"
+  cookie-consent: false
   navbar:
     title: false
     logo: images/Desegpol_logo_transparent.png
@@ -17,22 +18,14 @@ website:
         text: Team
       - href: outputs.qmd
         text: Outputs
+  page-footer:
+    background: "#419E9C"
+    center: Desegpol | School desegregation policies in the city of Barcelona
 
 format:
   html:
-    include-after-body: |
-      <div class="footer">
-        <p>© 2024 by <a href="https://your-website.com">Your Name</a>. All rights reserved.</p>
-      </div>
-    include-in-header: |
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.8.6/css/academicons.min.css">
     theme: cosmo
     css: styles.css
     toc: true
-
-# Link the custom CSS file here
-format-html:
-  stylesheets: 
-    - styles.css
 
 editor: visual
