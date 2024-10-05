@@ -168,3 +168,22 @@ body {
 .navbar-nav .nav-link.active {
   color: #419E9C; /* Replace this hex code with your desired color */
 }
+
+/* Hide anchor link symbol for h4 headers */
+h4 .header-anchor::before,
+h4 .header-anchor::after,
+h4 a.anchor {
+    display: none !important; /* Completely hides any symbol associated with h4 */
+}
+
+/* Ensure h4 links are not clickable */
+h4 a {
+    pointer-events: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Prevent any hover effects for h4 headers */
+h4:hover a {
+    text-decoration: none;
+}

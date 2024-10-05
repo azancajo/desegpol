@@ -33,6 +33,6 @@ format:
 # Link the custom CSS file here
 format-html:
   stylesheets: 
-    - css/styles.css
+    - styles.css
 
 editor: visual
