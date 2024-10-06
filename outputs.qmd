@@ -14,7 +14,7 @@ The next documents present the preliminary findings of the research project. The
 :::
 
 ::: grid-item
-[**Unequal Impacts of School Desegregation Policies: Barcelona’s Shock Plan**](desegpol.com/files/Strand1_Impact.pdf)
+[**Unequal Impacts of School Desegregation Policies: Barcelona’s Shock Plan**](files/Strand1_Impact.pdf)
 
 Findings about the impact of desegregation policies in Barcelona.
 :::
