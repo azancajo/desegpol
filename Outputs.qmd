@@ -6,7 +6,7 @@ css: styles.css
 
 # Preliminary findings
 
-The next documents present the preliminary findings of the research. These are based on the presentations we have made at different academic conferences, seminars and workshops.
+The next documents present the preliminary findings of the research project. These are based on the presentations we have made at different academic conferences, seminars and workshops.
 
 ::::: {.grid .custom-grid}
 ::: grid-item
