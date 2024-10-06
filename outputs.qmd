@@ -2,6 +2,7 @@
 title: "outputs"
 format: html
 css: styles.css
+toc: false
 ---
 
 # Preliminary findings
