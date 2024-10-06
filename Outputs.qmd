@@ -1,5 +1,5 @@
 ---
-title: "Outputs"
+title: "outputs"
 format: html
 css: styles.css
 ---
