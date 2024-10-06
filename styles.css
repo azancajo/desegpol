@@ -188,10 +188,13 @@ h2 {
 
 .custom-grid {
   display: grid;
-  grid-template-columns: 5fr 5fr; /* Adjusts column widths. You can change 1fr 2fr to other values */
+  grid-template-columns: 5fr 5fr; /* Keeps the column widths */
   gap: 20px; /* Adds space between the columns */
 }
 
 .grid-item {
   padding: 10px;
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally (optional, if needed) */
 }
