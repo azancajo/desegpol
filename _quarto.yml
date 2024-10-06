@@ -20,8 +20,7 @@ website:
         text: Outputs
   page-footer:
     background: "#419E9C"
-    center: Desegpol | School desegregation policies in the city of Barcelona
-
+    center: '<div class="custom-footer-container">Desegpol | School desegregation policies in the city of Barcelona</div>'
 format:
   html:
     theme: cosmo
