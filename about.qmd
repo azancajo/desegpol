@@ -5,6 +5,7 @@ format:
     toc: true
     css: styles.css
 ---
+
 # Project summary
 
 School segregation is currently one of the greatest educational and social challenges facing European countries and cities. The fight against school segregation has direct implications for the right to education, children's well-being, the quality of public services, and social cohesion. The city of Barcelona ranks among the Catalan cities with the highest levels of school segregation, despite also being a pioneer in developing local policies to mitigate this issue. In this context, and with the goal of addressing this challenge, the Barcelona Education Consortium launched the *"Shock Plan Against School Segregation"* in 2018, a groundbreaking and innovative initiative at the European level aimed at significantly reducing school segregation in the city through a wide range of measures. More recently, the approval of the new *Admissions Decree* by the Generalitat of Catalonia in 2021 has helped to strengthen this policy, establishing a regulatory framework that consolidates many of the measures outlined in the Shock Plan, while also introducing new instruments to improve the distribution of socially vulnerable students.

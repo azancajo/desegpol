@@ -47,5 +47,33 @@
     "title": "School desegregation policies in the city of Barcelona",
     "section": "",
     "text": "Research project funded by"
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "Minimal Test",
+    "section": "",
+    "text": "This is a simple paragraph inside a div."
+  },
+  {
+    "objectID": "conferences.html#recent-events",
+    "href": "conferences.html#recent-events",
+    "title": "Events",
+    "section": "",
+    "text": "cat(’\n\n\n&lt;!-- First Card --&gt;\n&lt;div class=\"col-md-4\"&gt;\n  &lt;div class=\"card\"&gt;\n    &lt;img class=\"card-img-top\" src=\"your-image.jpg\" alt=\"Event image\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;CIES 2019: San Francisco&lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;October 25, 2019&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;!-- Second Card --&gt;\n&lt;div class=\"col-md-4\"&gt;\n  &lt;div class=\"card\"&gt;\n    &lt;img class=\"card-img-top\" src=\"your-image.jpg\" alt=\"Event image\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;UAB-UIO Research Seminar&lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;October 25, 2019&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;!-- Additional cards can go here --&gt;\n\n\n’)"
+  },
+  {
+    "objectID": "conferences.html#recent-events-1",
+    "href": "conferences.html#recent-events-1",
+    "title": "Conferences",
+    "section": "Recent Events",
+    "text": "Recent Events\n\n\n&lt;!-- First Card --&gt;\n&lt;div class=\"col-md-4\"&gt;\n  &lt;div class=\"card\"&gt;\n    &lt;img class=\"card-img-top\" src=\"your-image.jpg\" alt=\"Event image\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;CIES 2019: San Francisco&lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;October 25, 2019&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;!-- Second Card --&gt;\n&lt;div class=\"col-md-4\"&gt;\n  &lt;div class=\"card\"&gt;\n    &lt;img class=\"card-img-top\" src=\"your-image.jpg\" alt=\"Event image\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;UAB-UIO Research Seminar&lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;October 25, 2019&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;!-- Additional cards can go here --&gt;"
+  },
+  {
+    "objectID": "conferences.html#minimal-html-test",
+    "href": "conferences.html#minimal-html-test",
+    "title": "Minimal Test",
+    "section": "",
+    "text": "This is a simple paragraph inside a div."
   }
 ]
