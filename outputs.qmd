@@ -9,17 +9,17 @@ toc: false
 
 The next documents present the preliminary findings of the research project. These are based on the presentations we have made at different academic conferences, seminars and workshops.
 
-::::: grid-container
+::::::: grid-container
 ::: team-member
 <img src="images/Strand1_Impact.png" width="400" height="300"/>
 
-<h5>[**Impact evaluation of the Barcelona’s Shock Plan**](desegpol.com/files/Strand1_Impact.pdf)</h5>
+<h5>[**Impact evaluation of the Barcelona’s Shock Plan**](files/Strand1_Impact.pdf)</h5>
 :::
 
 ::: team-member
 <img src="images/Strand2_CMO.png" width="400" height="300"/>
 
-<h5>[**Realist evaluation of the Barcelona’s Shock Plan**](desegpol.com/files/Strand2_CMO.pdf)</h5>
+<h5>[**Realist evaluation of the Barcelona’s Shock Plan**](files/Strand2_CMO.pdf)</h5>
 :::
 
 ::: team-member
@@ -77,5 +77,4 @@ p a {
     text-align: center;
 }
 </style>
-:::::
-
+:::::::
