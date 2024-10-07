@@ -28,3 +28,7 @@ format:
     toc: true
 
 editor: visual
+
+redirects:
+  from: "http://desegpol.com"
+  to: "https://www.desegpol.com"
