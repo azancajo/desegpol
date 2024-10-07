@@ -177,6 +177,10 @@ h2 {
   color: #419E9C;
 }
 
+h5 {
+  color: #419E9C;
+}
+
 .page-footer {
   display: flex;
   justify-content: center; /* Centers horizontally */
