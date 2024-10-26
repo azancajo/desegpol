@@ -10,6 +10,12 @@ format:
     css: index-styles.css
 ---
 
+<script type="text/javascript">
+    if (window.location.hostname === "desegpol.com") {
+        window.location.href = "https://www.desegpol.com" + window.location.pathname;
+    }
+</script>
+
 ![](images/Desegpol_logo_transparent%202.png){fig-align="center"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;"}
