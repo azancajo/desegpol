@@ -32,7 +32,7 @@ Research team
 
 [**Andrea Jover**]{style="font-size: 22px;"}
 
-[white text]{style="color: #FFFFFF;"}
+<p><a href="https://uab.academia.edu/AndreaJoverPujol" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Andrea-Jover-Pujol" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a></p> 
 :::
 
 ::: team-member
