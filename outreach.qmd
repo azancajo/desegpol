@@ -44,26 +44,42 @@ toc: false
 }
 </style>
 
-<div class="grid-container">
+:::::: grid-container
+::: card
+<img src="images/seminar1.jpeg" alt="CIES 2019: San Francisco"/>
 
-<div class="card">
-  <img src="images/seminar1.jpeg" alt="CIES 2019: San Francisco">
-  <p>**Interim seminar with key stakeholders**</p>
-  <p class="date">March 5, 2024</p>
-</div>
+<p>**Interim seminar with key stakeholders**</p>
 
-<div class="card">
-  <img src="image2.jpg" alt="UAB-UIO Research Seminar">
-  <h3>UAB-UIO Research Seminar</h3>
-  <p class="date">October 25, 2019</p>
-</div>
+<p class="date">
 
-<div class="card">
-  <img src="image3.jpg" alt="ECER 2018">
-  <h3>ECER 2018</h3>
-  <p class="date">September 1, 2018</p>
-</div>
+March 5, 2024
+
+</p>
+:::
+
+::: card
+<img src="image2.jpg" alt="UAB-UIO Research Seminar"/>
+
+<h3>UAB-UIO Research Seminar</h3>
+
+<p class="date">
+
+October 25, 2019
+
+</p>
+:::
+
+::: card
+<img src="image3.jpg" alt="ECER 2018"/>
+
+<h3>ECER 2018</h3>
+
+<p class="date">
+
+September 1, 2018
+
+</p>
+:::
 
 <!-- Add more cards as needed -->
-
-</div>
+::::::

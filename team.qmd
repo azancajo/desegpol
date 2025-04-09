@@ -32,7 +32,7 @@ Research team
 
 [**Andrea Jover**]{style="font-size: 22px;"}
 
-<p><a href="https://uab.academia.edu/AndreaJoverPujol" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Andrea-Jover-Pujol" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a></p> 
+<p><a href="https://uab.academia.edu/AndreaJoverPujol" target=" blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Andrea-Jover-Pujol" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a></p>
 :::
 
 ::: team-member
@@ -59,13 +59,6 @@ Research team
 <p><a href="https://www.researchgate.net/profile/Marti-Manzano" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a> <a href="https://scholar.google.com.my/citations?user=jDBdZS0AAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
-::: team-member
-<img src="team_photos/LLP.webp" alt="Lluís Pacerisa" width="150" height="150"/>
-
-[**Lluís Pacerisa**]{style="font-size: 22px;"}
-
-<p><a href="https://ub.academia.edu/Llu%C3%ADsParcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Lluis-Parcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com/citations?user=TfZVZVwAAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
-:::
 
 ::: team-member
 <img src="team_photos/MP.jpg" alt="Marcel Pagès" width="150" height="150"/>
@@ -73,6 +66,14 @@ Research team
 [**Marcel Pagès**]{style="font-size: 22px;"}
 
 <p><a href="https://independent.academia.edu/MarcelPag%C3%A8s" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Marcel-Pages" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com" target="_blank" style="text-decoration: none;">{{< iconify simple-icons googlescholar size=lg >}} </a></p>
+:::
+
+::: team-member
+<img src="team_photos/LLP.webp" alt="Lluís Pacerisa" width="150" height="150"/>
+
+[**Lluís Parcerisa**]{style="font-size: 22px;"}
+
+<p><a href="https://ub.academia.edu/Llu%C3%ADsParcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net/profile/Lluis-Parcerisa" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com/citations?user=TfZVZVwAAAAJ&hl=en" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
 ::: team-member
@@ -91,6 +92,7 @@ Research team
 <p><a href="https://uab.academia.edu/AndreuTermes" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons academia size=lg >}} </a>  <a href="https://www.researchgate.net" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons researchgate size=lg >}} </a>  <a href="https://scholar.google.com" target="_blank" style="text-decoration: none;"> {{< iconify simple-icons googlescholar size=lg >}} </a></p>
 :::
 
+```{=html}
 <style>
 .grid-container {
     display: grid;
@@ -132,4 +134,5 @@ p a {
     text-align: center;
 }
 </style>
+```
 :::::::::::::
