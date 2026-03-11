@@ -1,7 +1,5 @@
 /* css styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 .navbar-brand img {
     max-height: 100%;  /* Ensure the logo fits within the new navbar height */
     height: auto;
