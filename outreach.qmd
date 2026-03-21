@@ -1,5 +1,6 @@
 ---
-title: "Outreach"
+title: "Outreach – Conferences & Seminars"
+description: "Conferences, seminars, and public engagement activities of the Desegpol research project on school desegregation policies in Barcelona."
 format: html
 toc: false
 ---
@@ -48,7 +49,7 @@ toc: false
 
 :::::: grid-container
 ::: card
-<img src="images/seminar1.jpeg" alt="CIES 2019: San Francisco"/>
+<img src="images/seminar1.jpeg" alt="Interim seminar with key stakeholders on school desegregation in Barcelona, March 2024"/>
 
 <p>**Interim seminar with key stakeholders**</p>
 
@@ -60,7 +61,7 @@ March 5, 2024
 :::
 
 ::: card
-<img src="image2.jpg" alt="UAB-UIO Research Seminar"/>
+<img src="images/image2.jpg" alt="UAB-UIO Research Seminar on school desegregation, October 2019"/>
 
 <h3>UAB-UIO Research Seminar</h3>
 
@@ -72,7 +73,7 @@ October 25, 2019
 :::
 
 ::: card
-<img src="image3.jpg" alt="ECER 2018"/>
+<img src="images/image3.jpg" alt="ECER 2018 conference presentation on school segregation policies"/>
 
 <h3>ECER 2018</h3>
 

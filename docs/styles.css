@@ -22,6 +22,12 @@ h1.title {
   display: none;
 }
 
+/* Hide page descriptions from rendering (kept in <meta> tags for SEO) */
+.quarto-title .description,
+#title-block-header .description {
+  display: none !important;
+}
+
 /* Center navbar items */
 .navbar-nav {
   margin: 0 auto;

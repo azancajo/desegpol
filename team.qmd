@@ -1,5 +1,6 @@
 ---
-title: "Team"
+title: "Research Team"
+description: "Meet the Desegpol research team: academics from the Universitat Autònoma de Barcelona and Universitat de Barcelona studying school desegregation policies."
 format: html
 toc: false
 ---

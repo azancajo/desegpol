@@ -1,14 +1,20 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - robots.txt
 
 website:
   title: "Desegpol"
+  description: "Desegpol is a research project analysing the impact of school desegregation policies (Shock Plan and Admissions Decree) on the distribution of socially vulnerable students in Barcelona."
+  site-url: "https://www.desegpol.com"
   cookie-consent: false
+  open-graph: true
+  twitter-card: true
   navbar:
     title: false
     logo: images/Desegpol_logo_transparent.png
-    logo-alt: "Desegpol"
+    logo-alt: "Desegpol - School Desegregation Policies in Barcelona"
     left:
       - href: index.qmd
         text: Home
@@ -20,12 +26,14 @@ website:
         text: Outputs
   page-footer:
     background: "#419E9C"
-    center: '<div class="custom-footer-container">Desegpol | School desegregation policies in the city of Barcelona</div>'
+    center: '<div class="custom-footer-container">&copy; 2025 Desegpol | School desegregation policies in the city of Barcelona</div>'
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    lang: en
 
 editor: visual
 

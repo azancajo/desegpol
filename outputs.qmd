@@ -1,5 +1,6 @@
 ---
-title: "outputs"
+title: "Publications & Research Outputs"
+description: "Academic publications, policy briefs, and research outputs from the Desegpol project on school desegregation policies in Barcelona."
 format: html
 css: styles.css
 toc: false
@@ -7,7 +8,7 @@ toc: false
 
 ::::: {.publication-card style="display: flex; background-color: #fdfdfd; box-shadow: 0 0px 12px rgba(54,142,138,0.1); padding: 3rem; border-radius: 12px;"}
 ::: {style="flex: 1; margin-right: 1.5rem;"}
-<img src="images/cover.jpeg" alt="Cover image" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
+<img src="images/cover.jpeg" alt="Cover of policy brief: School desegregation policies in Barcelona – progress and remaining challenges" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
 :::
 
 ::: {style="flex: 2;"}
@@ -21,7 +22,7 @@ This policy brief, edited together with Fundació Bofill, synthesizes the main f
 
 ::::: {.publication-card style="display: flex; background-color: #fdfdfd; box-shadow: 0 0px 12px rgba(54,142,138,0.1); padding: 3rem; border-radius: 12px;"}
 ::: {style="flex: 1; margin-right: 1.5rem;"}
-<img src="images/cover2.jpeg" alt="Cover image" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
+<img src="images/cover2.jpeg" alt="Cover of article: Emotional experiences and stigma among families benefiting from Barcelona&apos;s shock plan" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
 :::
 
 ::: {style="flex: 2;"}
@@ -35,7 +36,7 @@ This article examines the emotional experiences and processes of stigmatisation 
 
 ::::: {.publication-card style="display: flex; background-color: #fdfdfd; box-shadow: 0 0px 12px rgba(54,142,138,0.1); padding: 3rem; border-radius: 12px;"}
 ::: {style="flex: 1; margin-right: 1.5rem;"}
-<img src="images/cover3.jpg" alt="Cover image" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
+<img src="images/cover3.jpg" alt="Cover of article: Redesigning choice to tackle school segregation – the impact of Barcelona&apos;s desegregation policies" style="width: 100%; max-width: 250px; border-radius: 8px;"/>
 :::
 
 ::: {style="flex: 2;"}

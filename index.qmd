@@ -1,10 +1,12 @@
 ---
-title: "**School desegregation policies in the city of Barcelona**"
+title: "School Desegregation Policies in Barcelona | Desegpol Research Project"
+pagetitle: "Desegpol – School Desegregation Policies in Barcelona"
+description: "Desegpol investigates the impact of Barcelona's Shock Plan and Admissions Decree on school segregation, analysing how desegregation policies affect the distribution of socially vulnerable students."
 title-block-banner: false
 toc: false
 about:
   template: jolla
-body-attrs: "class=index-page" # Adds a class called "index-page" to the body
+body-attrs: "class=index-page"
 format:
   html:
     css: index-styles.css
@@ -16,18 +18,49 @@ format:
         window.location.href = "https://www.desegpol.com" + window.location.pathname;
     }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "name": "",
+  "description": "Research project analysing the impact of Barcelona's Shock Plan (Pla de Xoc) and the Admissions Decree (Decret d'Admissions) on the distribution of socially vulnerable students across schools in Barcelona.",
+  "url": "https://www.desegpol.com",
+  "funder": {
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "GEPS – Globalisation, Education and Social Policies",
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universitat Autònoma de Barcelona"
+    }
+  },
+  "keywords": ["school segregation", "desegregation policy", "Barcelona", "education policy", "school choice", "Shock Plan", "Admissions Decree", "equity in education"],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "School segregation"
+    },
+    {
+      "@type": "Thing",
+      "name": "Education policy"
+    }
+  ]
+}
+</script>
 ```
 
 ![](images/Desegpol_logo_transparent%202.png){fig-align="center"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;"}
-<img src="images/geps-logo.png" style="margin-right: 5px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" width="400" height="163" style="margin-right: 5px;"/>
+<img src="images/geps-logo.png" alt="GEPS Research Group logo" style="margin-right: 5px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" alt="Universitat Autònoma de Barcelona logo" width="400" height="163" style="margin-right: 5px;"/>
 :::
 
 **Research project funded by**
 
 ::: {style="display: flex; justify-content: center; align-items: center;"}
-<img src="images/Llimes-signes.png" style="margin-top: 10px;"/>
+<img src="images/Llimes-signes.png" alt="Funding institution logo" style="margin-top: 10px;"/>
 :::
 
 ```{=html}
