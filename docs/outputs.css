@@ -1,25 +1,10 @@
 /* Outputs page: 2x2 publication grid */
 
-.outputs-intro {
-  max-width: 720px;
-  margin: 1rem auto 2.5rem;
-  text-align: center;
-}
-
-.outputs-intro h2 {
-  margin-bottom: 0.5rem;
-  border-bottom: none;
-}
-
-.outputs-intro p {
-  color: #5a6b6b;
-  font-size: 1.05rem;
-}
-
 .publication-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 3rem;
 }
 
