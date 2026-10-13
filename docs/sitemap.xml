@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.desegpol.com/index.html</loc>
-    <lastmod>2026-03-21T16:36:39.810Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.desegpol.com/outreach.html</loc>
-    <lastmod>2026-03-21T16:29:05.727Z</lastmod>
+    <loc>https://www.desegpol.com/about.html</loc>
+    <lastmod>2026-03-21T16:29:31.631Z</lastmod>
   </url>
   <url>
     <loc>https://www.desegpol.com/team.html</loc>
-    <lastmod>2026-03-21T16:27:46.494Z</lastmod>
+    <lastmod>2026-03-21T16:27:46.493Z</lastmod>
   </url>
   <url>
     <loc>https://www.desegpol.com/outputs.html</loc>
-    <lastmod>2026-10-13T12:33:35.876Z</lastmod>
+    <lastmod>2026-10-13T12:34:01.026Z</lastmod>
   </url>
   <url>
-    <loc>https://www.desegpol.com/about.html</loc>
-    <lastmod>2026-03-21T16:29:31.631Z</lastmod>
+    <loc>https://www.desegpol.com/index.html</loc>
+    <lastmod>2026-03-21T16:36:39.809Z</lastmod>
   </url>
 </urlset>

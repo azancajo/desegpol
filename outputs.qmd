@@ -9,15 +9,14 @@ toc: false
 page-layout: full
 ---
 
-:::::::: publication-grid
-
-::::: publication-card
+::::::::::::::::::: publication-grid
+:::::: publication-card
 ::: publication-cover
 <img src="images/cover.jpeg" alt="Cover of policy brief: School desegregation policies in Barcelona – progress and remaining challenges"/>
 :::
 
 :::: publication-body
-[[Policy brief]{.publication-type} [Fundació Bofill · Catalan]{.publication-venue}]{.publication-meta}
+[Policy brief]{.publication-type} [Fundació Bofill · Catalan]{.publication-venue}
 
 [School desegregation policies in Barcelona: progress and remaining challenges]{.publication-title}
 
@@ -27,15 +26,15 @@ page-layout: full
 [Download the document](https://fundaciobofill.cat/uploads/docs/6/m/r/wh0-politiquesdesegregacioescolarabarcelona_adriazacncajo_2aed.pdf){.btn-primary-link}
 :::
 ::::
-:::::
+::::::
 
-::::: publication-card
+:::::: publication-card
 ::: publication-cover
 <img src="images/cover2.jpeg" alt="Cover of article: Emotional experiences and stigma among families benefiting from Barcelona&apos;s shock plan"/>
 :::
 
 :::: publication-body
-[[Journal article]{.publication-type} [British Educational Research Journal]{.publication-venue}]{.publication-meta}
+[Journal article]{.publication-type} [British Educational Research Journal]{.publication-venue}
 
 [Emotional experiences and stigma among families benefiting from Barcelona’s shock plan against school segregation and for inclusion and equal opportunities and educational success]{.publication-title}
 
@@ -45,44 +44,41 @@ page-layout: full
 [Download the document](https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/berj.70054){.btn-primary-link}
 :::
 ::::
-:::::
+::::::
 
-::::: publication-card
+:::::: publication-card
 ::: publication-cover
 <img src="images/cover3.jpg" alt="Cover of article: Redesigning choice to tackle school segregation – the impact of Barcelona&apos;s desegregation policies"/>
 :::
 
 :::: publication-body
-[[Journal article]{.publication-type} [Policy Studies]{.publication-venue}]{.publication-meta}
+[Journal article]{.publication-type} [Policy Studies]{.publication-venue}
 
 [Redesigning choice to tackle school segregation: the impact of Barcelona’s desegregation policies]{.publication-title}
 
 [This study examines the impact of these policies on school segregation and explores how their effectiveness varies according to the characteristics of different areas within the city. The findings indicate that desegregation policies have reduced the uneven distribution of socially disadvantaged students and their isolation in specific schools.]{.publication-summary}
 
 ::: publication-links
-[Download the document](https://tinyurl.com/34b8wcfp){.btn-primary-link}
-[Pre-print version](https://tinyurl.com/yzu9wcvb){.btn-secondary-link}
+[Download the document](https://tinyurl.com/34b8wcfp){.btn-primary-link} [Pre-print version](https://tinyurl.com/yzu9wcvb){.btn-secondary-link}
 :::
 ::::
-:::::
+::::::
 
-::::: publication-card
+:::::: publication-card
 ::: publication-cover
 <img src="images/cover4.jpg" alt="First page of article: Unpacking policy instruments through a mechanistic analysis – school desegregation policies in Barcelona"/>
 :::
 
 :::: publication-body
-[[Journal article]{.publication-type} [Journal of Education Policy]{.publication-venue}]{.publication-meta}
+[Journal article]{.publication-type} [Journal of Education Policy]{.publication-venue}
 
 [Unpacking policy instruments through a mechanistic analysis: school desegregation policies in Barcelona]{.publication-title}
 
 [Drawing on a mechanistic approach to policy instruments and a realist evaluation methodology, this article examines how beneficiary families respond to the key instruments of Barcelona's school desegregation policies: access quotas and additional funding for socially disadvantaged students. The findings show that, while in some cases these instruments achieve the expected outcome, in others they are insufficient to change beneficiaries' school choice patterns.]{.publication-summary}
 
 ::: publication-links
-[Download the document](https://www.tandfonline.com/doi/full/10.1080/02680939.2026.2743590){.btn-primary-link}
-[Pre-print version](https://www.researchgate.net/publication/415707135_Unpacking_policy_instruments_through_a_mechanistic_analysis_School_desegregation_policies_in_Barcelona){.btn-secondary-link}
+[Download the document](https://www.tandfonline.com/doi/full/10.1080/02680939.2026.2743590){.btn-primary-link} [Pre-print version](https://www.researchgate.net/publication/415707135_Unpacking_policy_instruments_through_a_mechanistic_analysis_School_desegregation_policies_in_Barcelona){.btn-secondary-link}
 :::
 ::::
-:::::
-
-::::::::
+::::::
+:::::::::::::::::::

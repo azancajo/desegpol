@@ -56,6 +56,9 @@
 }
 
 .publication-type {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0 0.4rem 0.85rem 0;
   background-color: #419E9C;
   color: #ffffff;
   padding: 0.2rem 0.65rem;
@@ -66,6 +69,7 @@
 }
 
 .publication-venue {
+  font-size: 0.8rem;
   color: #5a6b6b;
   font-style: italic;
 }
