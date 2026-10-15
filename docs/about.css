@@ -1,0 +1,190 @@
+/* About page */
+
+/* Numbered objectives with circular counters */
+.objective-list ol {
+  list-style: none;
+  counter-reset: objective;
+  padding-left: 0;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.objective-list li {
+  counter-increment: objective;
+  position: relative;
+  padding: 0.85rem 0 0.85rem 3.25rem;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.55;
+}
+
+.objective-list li:last-child {
+  border-bottom: none;
+}
+
+.objective-list li::before {
+  content: counter(objective);
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  background: var(--teal-tint);
+  color: var(--teal-dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Research questions as cards */
+.rq-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.rq {
+  background: var(--teal-tint);
+  border-left: 4px solid var(--teal);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1rem 1.15rem;
+}
+
+.rq:nth-child(2) { border-left-color: var(--pink); }
+.rq:nth-child(3) { border-left-color: var(--orange); }
+.rq:nth-child(4) { border-left-color: var(--yellow); }
+
+.rq p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.rq-label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--teal-dark);
+  margin-bottom: 0.35rem;
+}
+
+/* Mechanisms and CMO definitions */
+.concept-list ol {
+  padding-left: 0;
+  list-style: none;
+  counter-reset: concept;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.concept-list li {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.concept-list li {
+  counter-increment: concept;
+  position: relative;
+  padding-left: 2.6rem;
+}
+
+.concept-list li::before {
+  content: counter(concept) ".";
+  position: absolute;
+  left: 1.25rem;
+  top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: var(--teal-dark);
+}
+
+.concept-list li p {
+  margin: 0;
+}
+
+.concept-list li strong {
+  color: var(--teal-dark);
+}
+
+@media (max-width: 768px) {
+  .rq-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* "On this page" table of contents */
+#TOC,
+nav#TOC {
+  position: sticky;
+  top: 96px;
+  background: var(--teal-tint);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.1rem 1rem;
+  overflow: hidden;
+}
+
+#TOC::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: var(--stripe);
+}
+
+#toc-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+#TOC ul {
+  border-left: none !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+#TOC ul li {
+  list-style: none;
+}
+
+#TOC .nav-link,
+#TOC a {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  color: var(--ink);
+  border-left: 3px solid transparent !important;
+  border-radius: 0 6px 6px 0;
+  padding: 0.45rem 0.6rem !important;
+  margin: 0.1rem 0;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+#TOC a:hover {
+  background: rgba(65, 158, 156, 0.10);
+  color: var(--teal-dark);
+}
+
+#TOC a.active {
+  background: #fff;
+  color: var(--teal-dark) !important;
+  font-weight: 600;
+  border-left-color: var(--teal) !important;
+  box-shadow: var(--shadow);
+}
+
+/* Figures a little larger and centred */
+.quarto-figure-center img {
+  max-width: 100%;
+}

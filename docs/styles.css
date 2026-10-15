@@ -1,202 +1,205 @@
-/* css styles */
+/* Desegpol site styles
+   Brand tokens mirror theme.scss so they can be used in plain CSS too. */
+
+:root {
+  --teal: #419E9C;
+  --teal-dark: #2F7D7B;
+  --teal-tint: #EEF6F6;
+  --pink: #E0606F;
+  --orange: #EC7A45;
+  --yellow: #F2C14E;
+  --ink: #1F3333;
+  --muted: #5A6B6B;
+  --line: rgba(65, 158, 156, 0.18);
+  --radius: 12px;
+  --shadow: 0 2px 12px rgba(31, 51, 51, 0.06);
+  --shadow-lift: 0 10px 28px rgba(31, 51, 51, 0.12);
+  /* Four-colour stripe used as the site's signature accent */
+  --stripe: linear-gradient(90deg,
+    var(--pink) 0 25%, var(--orange) 25% 50%,
+    var(--yellow) 50% 75%, var(--teal) 75% 100%);
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
 
 .navbar-brand img {
-    max-height: 100%;  /* Ensure the logo fits within the new navbar height */
-    height: auto;
+  max-height: 52px;
+  height: auto;
 }
 
-/* Navbar base styles (consolidated) */
-
-/* Optionally, change the text color in the navbar */
-.navbar a {
-  color: #419E9C;
+@media (min-width: 992px) {
+  /* Centre the links on desktop; logo left, search right */
+  .navbar-collapse .navbar-nav.me-auto {
+    margin: 0 auto !important;
+  }
 }
 
-/* Make navbar links bold */
-.navbar a {
-  font-weight: bold;
+.navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 0.5rem 0 !important;
+  margin: 0 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-/* Hide page title */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus-visible {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+/* ---------- Typography ---------- */
+
+/* Page titles are hidden; each page opens with its own heading */
 h1.title {
   display: none;
 }
 
-/* Hide page descriptions from rendering (kept in <meta> tags for SEO) */
+/* Hide page descriptions (kept in <meta> tags for SEO) */
 .quarto-title .description,
 #title-block-header .description {
   display: none !important;
 }
 
-/* Center navbar items */
-.navbar-nav {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
 }
 
-/* Optional: Ensure the logo is positioned properly */
-.navbar-brand {
-  margin-left: auto;
-  margin-right: auto;
+main h1 {
+  color: var(--teal);
+  font-size: 1.9rem;
+  margin-top: 2.5rem;
 }
 
-/* Change font and size of navbar links */
-.navbar-nav a {
-  font-family: 'Montserrat', sans-serif;  /* Replace with the font you prefer */
-  font-size: 18px;  /* Adjust size */
+main h1::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 5px;
+  margin-top: 0.6rem;
+  border-radius: 3px;
+  background: var(--stripe);
 }
 
-/* Keyframes for the fade-in animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+main h2 {
+  color: var(--ink);
+  font-size: 1.3rem;
+  margin-top: 2.25rem;
 }
 
-/* Apply the animation to the image */
-img.fade-in {
-  animation: fadeIn 3s ease-in-out;
+/* Quarto puts a border under h1/h2 in cosmo; the stripe replaces it */
+main h1, main h2 {
+  border-bottom: none;
 }
 
-/* Keyframes for the slide-in-from-bottom animation */
-@keyframes slideInFromBottom {
-  from {
-    transform: translateY(100%); /* Start from below */
-    opacity: 0; /* Hidden */
-  }
-  to {
-    transform: translateY(0); /* End at the original position */
-    opacity: 1; /* Fully visible */
-  }
+main p {
+  line-height: 1.65;
 }
 
-/* Apply the animation to all images only in the index page */
-.index-page img {
-  animation: slideInFromBottom 2s ease-out;
-  opacity: 1; /* Ensures images don't remain invisible */
-}
-
-/* Apply the navbar margin increase only on the index page */
-.index-page .navbar-nav .nav-link {
-  margin-right: 20px;
-}
-/* Target the navbar links */
-.navbar-nav .nav-link {
-  margin-right: 40px; /* Adjust this value to increase or decrease the spacing */
-}
-
-/* Change link color on hover */
-a:hover {
-  color: #419E9C; /* Change to your desired color when hovering */
-}
-
-/* Change link color when clicked (active state) */
-a:active {
-  color: #419E9C; /* Change to your desired color when clicking */
-}
-
-
-/* Change navbar link color on hover */
-.navbar-nav .nav-link:hover {
-  color: #419E9C; /* Change this to the hover color you want */
-}
-
-/* Change navbar link color when clicked (active state) */
-.navbar-nav .nav-link:active {
-  color: #419E9C; /* Change this to the active color you want */
-}
-
-/* Change navbar link color after it has been clicked (visited state) */
-.navbar-nav .nav-link:visited {
-  color: #419E9C; /* Change this to the visited color you want */
-}
-
-/* Regular links (default) */
 a {
-  color: #419E9C; /* Default color for links */
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
 }
 
-/* Navbar links (default) */
-.navbar-nav .nav-link {
-  color: #419E9C; /* Default color for navbar links */
+a:hover {
+  color: var(--teal);
 }
 
-/* Highlight navbar links with a line below when hovered or focused */
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
-  color:  #419E9C; /* Change color for navbar links when hovered or focused */
-  border-bottom: 2px solid #419E9C; /* Add a line below the link */
-  background-color: transparent; /* Ensure no background color is applied */
+/* ---------- Figures ---------- */
+
+.quarto-figure img {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  background: #fff;
+  box-shadow: var(--shadow);
 }
 
-/* Capitalize text in the navbar */
-.navbar-nav .nav-link {
-    text-transform: uppercase;
+.quarto-figure figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.6rem;
 }
 
-/* Navbar: fixed position, single height declaration */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  background-color: #ffffff;
-  z-index: 1000;
+/* ---------- Buttons ---------- */
+
+.btn-brand,
+.btn-brand-outline {
+  display: inline-block;
+  padding: 0.6rem 1.3rem;
+  border-radius: 999px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 2px solid var(--teal);
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
-/* Add margin and padding to ensure content starts below the navbar */
-body {
-  margin-top: 70px; /* Add margin equivalent to the navbar height */
-  padding-top: 0; /* No extra padding needed */
+.btn-brand {
+  background: var(--teal);
+  color: #fff;
 }
 
-@media (max-width: 768px) {
-  .large-element {
-    display: none; /* Hide large elements on mobile */
+.btn-brand:hover {
+  background: var(--teal-dark);
+  border-color: var(--teal-dark);
+  color: #fff;
+}
+
+.btn-brand-outline {
+  background: transparent;
+  color: var(--teal-dark);
+}
+
+.btn-brand-outline:hover {
+  background: var(--teal);
+  color: #fff;
+}
+
+/* ---------- Footer ---------- */
+
+.nav-footer {
+  border-top: 5px solid transparent;
+  border-image: var(--stripe) 1;
+  font-size: 0.9rem;
+}
+
+.nav-footer,
+.nav-footer a {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.footer-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* ---------- Motion ---------- */
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
   }
-  .text-content {
-    font-size: 14px; /* Adjust font sizes for mobile */
-  }
-}
-
-.navbar-nav .nav-link.active {
-  color: #419E9C; /* Replace this hex code with your desired color */
-}
-
-h1 {
-  color: #419E9C;
-}
-
-h2 {
-  color: #419E9C;
-}
-
-h5 {
-  color: #419E9C;
-}
-
-.page-footer {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 100px; /* Adjust the height as needed */
-  background-color: #123456; /* Use your desired background color */
-  color: white; /* Optional: Set the text color */
-}
-
-.custom-grid {
-  display: grid;
-  grid-template-columns: 5fr 5fr; /* Keeps the column widths */
-  gap: 20px; /* Adds space between the columns */
-}
-
-.grid-item {
-  padding: 10px;
-  display: flex;
-  align-items: center; /* Centers content vertically */
-  justify-content: center; /* Centers content horizontally (optional, if needed) */
 }

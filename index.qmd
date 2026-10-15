@@ -4,12 +4,11 @@ pagetitle: "Desegpol – School Desegregation Policies in Barcelona"
 description: "Desegpol investigates the impact of Barcelona's Shock Plan and Admissions Decree on school segregation, analysing how desegregation policies affect the distribution of socially vulnerable students."
 title-block-banner: false
 toc: false
-about:
-  template: jolla
+page-layout: full
 body-attrs: "class=index-page"
 format:
   html:
-    css: index-styles.css
+    css: home.css
 ---
 
 ```{=html}
@@ -51,16 +50,24 @@ format:
 </script>
 ```
 
-![](images/Desegpol_logo_transparent%202.png){fig-align="center"}
-
-::: {style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;"}
-<img src="images/geps-logo.png" alt="GEPS Research Group logo" style="margin-right: 5px;"/> <img src="images/logotip-versio-5-verd-1401x564.png" alt="Universitat Autònoma de Barcelona logo" width="400" height="163" style="margin-right: 5px;"/>
+::: hero
+![](images/Desegpol_logo_transparent%202.png){.hero-logo fig-alt="Desegpol – School desegregation policies in the city of Barcelona"}
 :::
 
-**Research project funded by**
+::: partners
+:::: partner-group
+::::: partner-logos
+<img src="images/geps-logo.png" alt="GEPS Research Group logo" class="partner-geps"/> <img src="images/logotip-versio-5-verd-1401x564.png" alt="Universitat Autònoma de Barcelona logo" class="partner-uab"/>
+:::::
+::::
 
-::: {style="display: flex; justify-content: center; align-items: center;"}
-<img src="images/Llimes-signes.png" alt="Funding institution logo" style="margin-top: 10px;"/>
+:::: partner-group
+[Research project funded by]{.section-eyebrow}
+
+::::: partner-logos
+<img src="images/Llimes-signes.png" alt="Funding institution logo" class="partner-funder"/>
+:::::
+::::
 :::
 
 ```{=html}

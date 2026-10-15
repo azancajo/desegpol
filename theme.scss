@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+// Brand palette (taken from the Desegpol logo map)
+$brand-teal:   #419E9C;
+$brand-teal-dark: #2F7D7B;
+$brand-pink:   #E0606F;
+$brand-orange: #EC7A45;
+$brand-yellow: #F2C14E;
+$brand-ink:    #1F3333;
+
+$primary: $brand-teal;
+$body-color: #2B3A3A;
+$link-color: $brand-teal-dark;
+$headings-color: $brand-ink;
+
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family: "Montserrat", $font-family-sans-serif;
+$headings-font-weight: 700;
+$font-size-root: 17px;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $brand-teal;
+$navbar-hl: $brand-teal-dark;
+
+$footer-bg: $brand-teal;
+$footer-fg: #ffffff;
+
+$toc-color: $brand-teal-dark;
+$toc-active-border: $brand-teal;
+
+/*-- scss:rules --*/

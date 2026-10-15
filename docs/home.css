@@ -1,0 +1,80 @@
+/* Home page */
+
+.index-page main {
+  padding-top: 0;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 4rem auto 3.5rem;
+  text-align: center;
+  animation: riseIn 0.7s ease-out both;
+}
+
+.hero .quarto-figure,
+.hero p:has(> .hero-logo) {
+  margin-bottom: 1.75rem;
+}
+
+.hero-logo {
+  width: min(720px, 100%);
+  height: auto;
+}
+
+/* Section scaffolding */
+
+.partners {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-eyebrow {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Partners strip */
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 1rem 4rem;
+  border-top: 1px solid var(--line);
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.partner-logos p {
+  display: contents;
+}
+
+.partner-logos img {
+  flex: none;
+  max-width: none;
+}
+
+.partner-geps   { height: 170px; width: auto; }
+.partner-uab    { height: 150px; width: auto; }
+.partner-funder { height: 86px; width: auto; } /* native size of Llimes-signes.png (200×86); larger blurs */
+
+@media (max-width: 768px) {
+  .hero { margin-top: 2rem; }
+      .partner-logos { gap: 1.5rem; flex-wrap: wrap; }
+  .partner-geps   { height: 120px; }
+  .partner-uab    { height: 104px; }
+  .partner-funder { height: 80px; }
+}

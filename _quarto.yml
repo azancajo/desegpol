@@ -26,12 +26,18 @@ website:
         text: Outputs
   page-footer:
     background: "#419E9C"
-    center: '<div class="custom-footer-container">&copy; 2025 Desegpol | School desegregation policies in the city of Barcelona</div>'
+    left: '<span class="footer-brand">Desegpol</span> · School desegregation policies in the city of Barcelona'
+    right: '&copy; 2025 Desegpol · GEPS – Universitat Autònoma de Barcelona'
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     css: styles.css
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     toc: true
     lang: en
 
