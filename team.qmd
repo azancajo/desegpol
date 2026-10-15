@@ -39,11 +39,11 @@ page-layout: full
 :::
 
 ::: {.team-member}
-<img src="team_photos/AL.jpg" alt="Antonina Levantino" width="150" height="150" loading="lazy"/>
+<img src="team_photos/AL.jpg" alt="Antonina Levatino" width="150" height="150" loading="lazy"/>
 
-[Antonina Levantino]{.team-name}
+[Antonina Levatino]{.team-name}
 
-[<a href="https://ub.academia.edu/AntoninaLevatino" target="_blank" rel="noopener" aria-label="Antonina Levantino on Academia.edu" title="Academia.edu">{{< iconify simple-icons academia >}}</a> <a href="https://www.researchgate.net/profile/Antonina-Levatino" target="_blank" rel="noopener" aria-label="Antonina Levantino on ResearchGate" title="ResearchGate">{{< iconify simple-icons researchgate >}}</a> <a href="https://scholar.google.it/citations?user=1PzDB04AAAAJ&hl=it" target="_blank" rel="noopener" aria-label="Antonina Levantino on Google Scholar" title="Google Scholar">{{< iconify simple-icons googlescholar >}}</a>]{.team-links}
+[<a href="https://ub.academia.edu/AntoninaLevatino" target="_blank" rel="noopener" aria-label="Antonina Levatino on Academia.edu" title="Academia.edu">{{< iconify simple-icons academia >}}</a> <a href="https://www.researchgate.net/profile/Antonina-Levatino" target="_blank" rel="noopener" aria-label="Antonina Levatino on ResearchGate" title="ResearchGate">{{< iconify simple-icons researchgate >}}</a> <a href="https://scholar.google.it/citations?user=1PzDB04AAAAJ&hl=it" target="_blank" rel="noopener" aria-label="Antonina Levatino on Google Scholar" title="Google Scholar">{{< iconify simple-icons googlescholar >}}</a>]{.team-links}
 :::
 
 ::: {.team-member}
